@@ -1,0 +1,17 @@
+<?php
+// Remove .EXAMPLE from filename to use it
+
+// Define timezone
+date_default_timezone_set('Europe/Zagreb');
+
+// Root of webapp
+set_include_path('');
+
+// Logging
+define('LOG_FILEPATH', '');
+
+// MySQL database
+define('MYSQL_HOST', '');
+define('MYSQL_USERNAME', '');
+define('MYSQL_PASSWORD', '');
+define('MYSQL_DATABASE', '');
